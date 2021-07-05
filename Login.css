@@ -1,0 +1,55 @@
+p
+{
+    color: red;
+}
+#p
+{
+    color: red;
+}
+button
+{
+    font-size: 20px;
+    font-weight: double;
+    border: 5px solid purple;
+    border-radius: 25px;
+}
+body
+{
+    background-color: LightSkyBlue;
+    font-weight: bold;
+}
+div
+{
+    background-color: none;
+}
+table
+{
+    margin: 10px;
+    font-size: 120%;
+    border:5px dotted greenyellow;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white;
+}
+input
+{
+    font-size: 120%;
+    border:3px solid green;
+    border-radius: 100px;
+}
+#email
+{
+    color: blue;
+    background-image: url('./Images/emil.png');
+    background-size: 25px;
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+}
+#password
+{
+    color:orangered;
+    background-image: url('./Images/password.png');
+    background-size: 25px;
+    background-repeat: no-repeat; 
+    padding-left: 25px;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products details</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-pic" >
+                        <img class="set" src="./Images/logo-amazon-removebg-preview.png" alt="logo-pic" width="50" height="50" >
+                </div>
+                <nav>
+                    <ul id="nav-links" > 
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./Products.html">Products</a></li>
+                        <li><a href="./ContactUs.html">Contact Us</a></li>
+                        <li><a href="./SignUp.html">SignUp</a></li>
+                        <li><a href="./signIn.html">SignIn</a></li>
+                        <li><a href="./cart.html">Shopping Cart</a></li>
+                    </ul>
+                    </nav>
+                </div>    
+            </div>        
+            <!-- -----------cart items details------ -->
+            <div class="small-container cart-page">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info" ></div>
+                            <img src="./Images/buy-1.jpg" alt="">
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price:$50.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </td>
+
+                        <td><input type="number" value="1" ></td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info" ></div>
+                            <img src="./Images/buy-2.jpg" alt="">
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price:$50.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </td>
+
+                        <td><input type="number" value="1" ></td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info" ></div>
+                            <img src="./Images/buy-3.jpg" alt="">
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price:$50.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </td>
+
+                        <td><input type="number" value="1" ></td>
+                        <td>$50.00</td>
+                    </tr>
+                </table>
+
+                <div class="total-price" >
+                    <table>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td>$200.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tax</td>
+                            <td>$35.00</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>$200.00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+           
+        
+        
+
+        <!-- ------------------footer  ------------------ -->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+
+                        <div class="app-logo-pic">
+                            <img src="./Images/app-store-removebg-preview.png" alt="">
+                            <img src="./Images/google-play-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./Images/logo-amazon-removebg-preview.png" alt="">
+                        <p>Our Main is to provide qualtiy products to our customers and Make them happy so they come again</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return policy</li>
+                            <li>Join us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us on Social Media</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright" >Copyright 2021 - Heerani Ecommerce website</p>
+            </div>
+        </div>
+
+        <!-- ----------javaScrit for toogle Menu---------- -->
+
+
+        <!-- <script>
+            var nav-links = document.getElementById("nav-links");
+            nav-links.style.maxHeight = "0px";
+
+            function menutoggle()
+            {
+                if(nav-links.style.maxHeight == "0px")
+                {
+                    nav-links.style.maxHeight = "200px";
+                }
+                else
+                {
+                    nav-links.style.maxHeight = "0px";
+                }
+            }
+        </script> -->
+
+<!-- 
+        <script>
+            var ProductImg = document.getElementById('ProductImg');
+            var SmallImg = document.getElementsByClassName('small-img');
+
+            SmallImg[0].onclick = function()
+            {
+                ProductImg.src = SmallImg[0].src;
+            }
+            SmallImg[01].onclick = function()
+            {
+                ProductImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick = function()
+            {
+                ProductImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick = function()
+            {
+                ProductImg.src = SmallImg[3].src;
+            }
+        </script> -->
+
+    </body>
+</html>
